@@ -24,7 +24,6 @@ in
     prismlauncher   # Minecraft launcher
     easyeffects     # Audio equalizer
     obs-studio      # Screen recording
-    celluloid       # MPV-based video player
     fragments       # Torrent client
     resources       # System monitor GUI
     custom-discord  # Custom Discord build
