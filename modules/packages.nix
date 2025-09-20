@@ -31,7 +31,6 @@ in
 
     # --- TUI & CLI Tools ---
     fastfetch # System information fetcher
-    helix     # Modern text editor
     btop      # Resource monitor
     wget      # Network downloader
     git       # Version control
