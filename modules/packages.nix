@@ -1,11 +1,10 @@
-{ pkgs, inputs, ... }:
+{ pkgs, ... }:
 
 let
   # Define a custom Discord package with OpenASAR and Moonlight
-  custom-discord = pkgs.discord.override {
+  custom-discord = pkgs.discord-canary.override {
     withOpenASAR = true;
-    withMoonlight = true;
-    moonlight = inputs.moonlight.packages.${pkgs.system}.moonlight;
+    withVencord = true;
   };
   # Remove bottles popup
   custom-bottles = pkgs.bottles.override {
