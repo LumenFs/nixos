@@ -1,17 +1,8 @@
 { pkgs, ... }:
 
 let
-  # Override the source to use the latest Discord version
-  updated-discord = pkgs.discord.overrideAttrs (oldAttrs: rec {
-    version = "0.0.111";
-    src = pkgs.fetchurl {
-      url = "https://stable.dl2.discordapp.net/apps/linux/${version}/discord-${version}.tar.gz";
-      hash = "sha256-o4U6i223Agtbt1N9v0GO/Ivx68OQcX/N3mHXUX2gruA=";
-    };
-  });
-  
   # Apply the OpenASAR and Vencord patches to Discord
-  custom-discord = updated-discord.override {
+  custom-discord = pkgs.discord.override {
     withOpenASAR = true;
     withVencord = true;
   };
