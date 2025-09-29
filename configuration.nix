@@ -11,7 +11,6 @@
 
   # Nix settings
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
-  nix.nixPath = [ "/home/lumenfs/nixos/flake.nix" ];
   nixpkgs.config.allowUnfree = true;
   nixpkgs.config.rocmSupport = true; # For AMD GPU compute
   programs.nix-ld.enable = true;
