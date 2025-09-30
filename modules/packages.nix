@@ -36,8 +36,8 @@ in
     git       # Version control
 
     # --- Utilities & Theming ---
-    p7zip          # 7-Zip archive support
-    unrar          # RAR archive support
+    p7zip     # 7-Zip archive support
+    unrar     # RAR archive support
   ];
 
   # Steam configuration
