@@ -15,7 +15,7 @@ in
 {
   # List all system-wide packages here
   environment.systemPackages = with pkgs; [
-    # --- GNOME & GUI Apps ---
+    # --- GUI Apps ---
     gnomeExtensions.appindicator
     gnomeExtensions.blur-my-shell
     gnome-builder   # IDE for GNOME
@@ -29,13 +29,13 @@ in
     custom-discord  # Custom Discord build
     custom-bottles  # Custom Bottles build
 
-    # --- TUI & CLI Tools ---
+    # --- CLI Tools ---
     fastfetch # System information fetcher
     btop      # Resource monitor
     wget      # Network downloader
     git       # Version control
 
-    # --- Utilities & Theming ---
+    # --- Utilities ---
     p7zip     # 7-Zip archive support
     unrar     # RAR archive support
   ];
