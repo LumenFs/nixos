@@ -16,10 +16,6 @@ in
   # List all system-wide packages here
   environment.systemPackages = with pkgs; [
     # --- GUI Apps ---
-    gnomeExtensions.appindicator
-    gnomeExtensions.blur-my-shell
-    gnome-builder   # IDE for GNOME
-    refine          # Extra GNOME settings
     chromium        # Web browser
     prismlauncher   # Minecraft launcher
     easyeffects     # Audio equalizer
@@ -31,7 +27,6 @@ in
 
     # --- CLI Tools ---
     fastfetch # System information fetcher
-    btop      # Resource monitor
     wget      # Network downloader
     git       # Version control
 
@@ -46,7 +41,7 @@ in
     extraCompatPackages = with pkgs; [ proton-ge-bin ];
     # Override to fix a common cursor issue
     package = pkgs.steam.override {
-      extraPkgs = pkgs: with pkgs; [ adwaita-icon-theme ];
+      extraPkgs = pkgs: with pkgs; [ kdePackages.breeze ];
     };
   };
 }
