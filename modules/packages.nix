@@ -3,8 +3,8 @@
 let
   # Apply the OpenASAR and Vencord patches to Discord
   custom-discord = pkgs.discord.override {
+    withMoonlight = true;
     withOpenASAR = true;
-    withVencord = true;
   };
   
   # Remove bottles popup
