@@ -16,6 +16,7 @@
       },
       "original": {
         "owner": "moonlight-mod",
+        "ref": "develop",
         "repo": "moonlight",
         "type": "github"
       }
