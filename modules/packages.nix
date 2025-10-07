@@ -5,6 +5,7 @@ let
   custom-discord = pkgs.discord.override {
     moonlight = inputs.moonlight.packages.${pkgs.system}.moonlight;
     withMoonlight = true;
+    withOpenASAR = true;
   };
   
   # Remove bottles popup
