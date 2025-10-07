@@ -36,6 +36,7 @@ in
     git       # Version control
 
     # --- Utilities ---
+    adw-gtk3  # Adwaita ported to GTK3
     p7zip     # 7-Zip archive support
     unrar     # RAR archive support
   ];
