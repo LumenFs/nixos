@@ -24,7 +24,6 @@ in
     prismlauncher   # Minecraft launcher
     easyeffects     # Audio equalizer
     obs-studio      # Screen recording
-    haruna          # Video player
     fragments       # Torrent client
     resources       # System monitor GUI
     custom-discord  # Custom Discord build
