@@ -8,7 +8,7 @@
     };
 
     moonlight = {
-      url = "github:moonlight-mod/moonlight";
+      url = "github:moonlight-mod/moonlight/develop";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
