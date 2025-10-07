@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 
 let
   # Apply the OpenASAR and Vencord patches to Discord

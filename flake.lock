@@ -1,5 +1,25 @@
 {
   "nodes": {
+    "moonlight": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1759525717,
+        "narHash": "sha256-H8dngrWspbfis0l7YZaVkselIXVpYN3XWBkbwCEBwxg=",
+        "owner": "moonlight-mod",
+        "repo": "moonlight",
+        "rev": "9776cf7c0b79f57cbfd60db47d824f53681a7dde",
+        "type": "github"
+      },
+      "original": {
+        "owner": "moonlight-mod",
+        "repo": "moonlight",
+        "type": "github"
+      }
+    },
     "musnix": {
       "inputs": {
         "nixpkgs": [
@@ -38,6 +58,7 @@
     },
     "root": {
       "inputs": {
+        "moonlight": "moonlight",
         "musnix": "musnix",
         "nixpkgs": "nixpkgs"
       }
