@@ -31,7 +31,6 @@ in
 
     # --- CLI Tools ---
     fastfetch # System information fetcher
-    btop      # Resource monitor
     wget      # Network downloader
     git       # Version control
 
